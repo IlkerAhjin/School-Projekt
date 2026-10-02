@@ -1,0 +1,141 @@
+footer{
+    text-align: center;
+    border: 1px solid black;
+    background: floralwhite;
+}
+
+header>button{
+    margin: 10px;
+}
+
+header{
+    background-color: floralwhite;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    border: 1px solid black;
+    z-index: 1000;
+}
+
+header>button{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+img{
+
+    display: inline-block;
+}
+
+body{
+    background: floralwhite;
+    margin:0;
+}
+
+div>.karteikarte:nth-of-type(1n){
+    margin: 100px;
+    display: inline-block;
+    border:2px solid darkgray;
+    background:lightgray;
+    text-align: center;
+    border-radius:10px;
+    width:200px;
+    height:200px;
+}
+.wrapper{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 5px;
+}
+button:hover{
+    background: darkgray;
+}
+
+hero {
+    background: lightskyblue;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+h1{
+
+}
+.text{
+    margin: 200px;
+    display: inline-block;
+    text-align: center;
+}
+footer>p{
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infokarte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid darkgray;
+
+    text-align: left;
+    margin: 30px;
+    width: 200px;
+    height: 100px;
+}
+.infokarte>img{
+    height: 50px;
+    width: 50px;
+}
+.infotext>p{display:inline-block;
+margin :10px;
+    text-align:left;}
+.infotext>h3{display:inline-block;
+margin :10px;
+text-align:center;}
+
+.Wrappiewrapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entscheidungen{
+    background:floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkgray;
+    border-radius:10px;
+    text-align: left;
+    margin-inline: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 100px;
+
+}
+.entscheidungswrapper{
+
+    background: lightskyblue;
+}
+
+.entscheidungswrapper>img{
+    height: 50px;
+    width: 50px;
+}
+
+.entscheidungstext{
+    text-align: center;
+}
+.trapper {
+    text-align: center;
+}
